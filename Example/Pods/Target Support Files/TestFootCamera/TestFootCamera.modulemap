@@ -1,0 +1,6 @@
+framework module TestFootCamera {
+  umbrella header "TestFootCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

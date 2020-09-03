@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		311EA322654DE67330E0ED52 /* TestFootCamera.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestFootCamera.podspec; path = ../TestFootCamera.podspec; sourceTree = "<group>"; };
+		311EA322654DE67330E0ED52 /* TestFootCamera.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestFootCamera.podspec; path = ../TestFootCamera.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4DD871E73D036F2E78AA93B3 /* Pods-TestFootCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFootCamera_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestFootCamera_Example/Pods-TestFootCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TestFootCamera_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFootCamera_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* TestFootCamera_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFootCamera_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6417BEEE0F179AB40E9A67F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6417BEEE0F179AB40E9A67F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8B343A9C796E0FC332464BFF /* Pods-TestFootCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFootCamera_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestFootCamera_Tests/Pods-TestFootCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F2F66A15A10030AEF6ACFBB /* Pods_TestFootCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFootCamera_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F13AC1504CB65326B8C34E /* Pods_TestFootCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFootCamera_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD608EF9698220E9ADA60382 /* Pods-TestFootCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFootCamera_Example.release.xcconfig"; path = "Target Support Files/Pods-TestFootCamera_Example/Pods-TestFootCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F5DD18CCEB7CE1F1C0027491 /* Pods-TestFootCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFootCamera_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestFootCamera_Tests/Pods-TestFootCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F6403565E940F3FB45929B4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F6403565E940F3FB45929B4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				8B343A9C796E0FC332464BFF /* Pods-TestFootCamera_Tests.debug.xcconfig */,
 				F5DD18CCEB7CE1F1C0027491 /* Pods-TestFootCamera_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 632A752YCU;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,7 +479,9 @@
 			baseConfigurationReference = 4DD871E73D036F2E78AA93B3 /* Pods-TestFootCamera_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 632A752YCU;
 				INFOPLIST_FILE = TestFootCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +496,9 @@
 			baseConfigurationReference = DD608EF9698220E9ADA60382 /* Pods-TestFootCamera_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 632A752YCU;
 				INFOPLIST_FILE = TestFootCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

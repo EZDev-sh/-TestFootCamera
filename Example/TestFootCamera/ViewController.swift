@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TestFootCamera
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func onAlert(_ sender: UIButton) {
+        TestFootCamera(title: "asdfasdfasdf", confirm: "ye"){
+            debugPrint("asdfasdfa")
+        }.show(in: self.view)
+    }
 }
 

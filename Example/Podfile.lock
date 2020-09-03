@@ -1,0 +1,16 @@
+PODS:
+  - TestFootCamera (0.1.0)
+
+DEPENDENCIES:
+  - TestFootCamera (from `../`)
+
+EXTERNAL SOURCES:
+  TestFootCamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestFootCamera: 7a6e38ec07115ccbf77a641c3c57445f11af35db
+
+PODFILE CHECKSUM: c48fafb85198afc590933a908e4ac5d331db07d2
+
+COCOAPODS: 1.9.3
